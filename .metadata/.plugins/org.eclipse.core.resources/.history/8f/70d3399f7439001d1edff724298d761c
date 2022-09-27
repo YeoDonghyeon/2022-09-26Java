@@ -1,0 +1,31 @@
+package inheritance;
+
+public class Ex2 {
+
+	Poind3D p = new Poind3D();
+	p.
+	
+}
+
+/**
+ * 2차원 좌표(x, y)를 관리하는 Point2D 클래스
+ * @author user
+ *
+ */
+class Point2D {
+	int x = 10;
+	int y = 20;
+	
+	public void print2D() {
+		System.out.println("x좌표 = " + x + ", y좌표 = " + y);
+	}
+}
+
+class Poind3D extends Point2D{
+	int z = 30;
+	
+	public void print3D() {
+		System.out.println("x좌표 = " + x + ", y좌표 = " + y + ", z좌표 = " + z);
+	}
+	
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;backjoon.Study_if&apos; to &apos;Study_if_ex1&apos;&#x0D;&#x0A;- Original project: &apos;study&apos;&#x0D;&#x0A;- Original element: &apos;backjoon.Study_if&apos;&#x0D;&#x0A;- Renamed element: &apos;backjoon.Study_if_ex1&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Study_if&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;backjoon{Study_if.java[Study_if" matchStrategy="1" name="Study_if_ex1" qualified="false" references="true" similarDeclarations="false" stamp="1661736385978" textual="false" version="1.0"/>
+</session>

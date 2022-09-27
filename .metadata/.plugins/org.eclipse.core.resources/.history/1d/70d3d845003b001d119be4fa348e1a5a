@@ -1,0 +1,29 @@
+package method_overriding;
+
+public class Ex {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Parent {
+	public void parentPrn() {
+		System.out.println("슈퍼클래스의 parentPrn()");
+	}
+	
+	public Object parentPrn2() {
+		System.out.println("슈퍼클래스의 parentPrn2()");
+		return 0;
+	}
+	
+	public String parentPrn3() {
+		System.out.println("슈퍼클래스의 parentPrn3()");
+		return null;
+	}
+}
+
+class Child extends Parent {
+	public void childPrn() {
+		System.out.println("자식클래스의 childPrn()");
+	}
+}

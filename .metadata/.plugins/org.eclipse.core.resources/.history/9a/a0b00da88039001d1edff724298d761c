@@ -1,0 +1,17 @@
+package inheritance;
+
+public class Ex4 {
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+class Employee4 {
+	String name;
+	int salary;
+	
+	public Employee4() {
+		System.out.println("Employee4() 생성자 호출됨!");
+	}
+}

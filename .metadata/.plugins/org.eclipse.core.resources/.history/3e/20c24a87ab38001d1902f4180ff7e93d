@@ -1,0 +1,29 @@
+package static_member;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		/*
+		 * 싱글톤 디자인 패턴
+		 * 
+		 */
+		
+		// SingletonClass 클래스의 인스턴스 생성
+		SingletonClass sc = new SingletonClass();
+		SingletonClass sc2 = new SingletonClass();
+		
+		
+		
+	}
+	
+}
+
+class SingletonClass {
+	String str; // 임시 확인용 변수
+	
+	// 기본 생성자 정의
+	public SingletonClass() {
+		
+	}
+	
+}

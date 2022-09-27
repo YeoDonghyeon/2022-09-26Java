@@ -1,0 +1,34 @@
+package inheritance;
+
+public class Ex4 {
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+class Employee4 {
+	String name;
+	int salary;
+	
+	public Employee4() {
+		System.out.println("Employee4() 생성자 호출됨!");
+	}
+}
+
+class Manager4 extends Employee4 {
+	String depart;
+
+	public Manager4() {
+		System.out.println("Manager4() 생성자 호출됨!");
+	}
+	
+	public Manager4(String name, int salary, String depart) {
+		System.out.println("Manager4(String, int, String)생성자 호출됨!");
+		
+		this.name = name;
+		this.salary = salary;
+		this.depart = depart;
+	}
+	
+}

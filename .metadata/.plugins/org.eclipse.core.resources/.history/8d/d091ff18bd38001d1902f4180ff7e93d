@@ -1,0 +1,11 @@
+package inheritance;
+
+public class Ex {
+
+	public static void main(String[] args) {
+		/*
+		 * 상속(inheritance)
+		 */
+	}
+	
+}

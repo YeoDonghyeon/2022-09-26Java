@@ -1,0 +1,39 @@
+package inheritance;
+
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Manager ma = new Manager();
+		ma.name = "홍길동";
+		ma.salary = 50000;
+		ma.depart = "영업";
+		
+		String empInfo = ma.getEmployee();
+		
+		
+	}
+
+}
+
+class Employee {
+	String name;
+	int salary;
+	
+	public String getEmployee() {
+		String info = name + salary;
+		return info;
+	}
+	
+}
+
+class Manager extends Employee{
+	String depart;
+	
+	public String getManager() {
+		String info = getEmployee() + depart;
+		return info;
+	}
+	
+}

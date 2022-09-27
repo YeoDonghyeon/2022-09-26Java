@@ -1,0 +1,30 @@
+package static_member;
+
+public class Ex4 {
+
+	public static void main(String[] args) {
+		/*
+		 * 싱글톤 디자인 패턴
+		 * 
+		 */
+		
+		// SingletonClass 클래스의 인스턴스 생성
+		SingletonClass sc = new SingletonClass();
+		SingletonClass sc2 = new SingletonClass();
+		
+		
+		
+	}
+	
+}
+
+class SingletonClass {
+	String str; // 임시 확인용 변수
+	
+	// 기본 생성자 정의
+//	public SingletonClass() {}
+	
+	// 1. 외부에서 생성자 호출이 불가능 하도록 생성자에 private 접근 제한자 선언
+	private SingletonClass() {}
+	
+}

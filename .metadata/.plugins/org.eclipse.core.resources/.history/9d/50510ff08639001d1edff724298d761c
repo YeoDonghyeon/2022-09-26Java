@@ -1,0 +1,27 @@
+package inheritance;
+
+public class Test_p {
+
+	public static void main(String[] args) {
+		
+		
+	}
+	
+}
+
+class Person {
+	String name;
+	int age;
+	boolean isHungry;
+	
+	public Person() {
+		System.out.println("Person() 생성자 호출됨!");
+	}
+	
+	public void eat() {
+		System.out.println("밥먹기");
+	}
+	
+	
+	
+}

@@ -1,0 +1,7 @@
+package access_modifier_p2;
+
+import access_modifier_p1.ParentClass;
+
+public class OtherPackageChildClass extends ParentClass {
+
+}

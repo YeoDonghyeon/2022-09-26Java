@@ -1,0 +1,29 @@
+package inheritance;
+
+public class Ex2 {
+
+	Point3D p = new Point3D();
+	
+	
+	
+}
+
+
+class Point2D {
+	int x = 10;
+	int y = 20;
+	
+	public void print2D() {
+		System.out.println("x좌표 = " + x + ", y좌표 = " + y);
+	}
+}
+
+class Point3D extends Point2D{
+	int z = 30;
+	
+	public void print3D() {
+		print2D();
+		System.out.println("z 좌표 = " + z);
+	}
+	
+}

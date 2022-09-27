@@ -1,0 +1,10 @@
+package access_modifier_p1;
+
+public class ParentClass {
+
+	public int publicVar;
+	protected int protectedVar;
+	int defaultVar;
+	private int privateVar;
+	
+}

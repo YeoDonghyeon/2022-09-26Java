@@ -1,0 +1,2 @@
+w SingletonClass();
+		SingletonClass sc2 = n

@@ -1,0 +1,13 @@
+package access_modifier_p2;
+
+import access_modifier_p1.ParentClass;
+
+public class OtherPackageSomeClass extends ParentClass{
+
+	public void useMember() {
+		this.publicVar = 10;
+		this.protectedVar = 20;
+		this.defaultVar = 30;
+//		this.privateVar = 40;
+	}
+}

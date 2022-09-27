@@ -1,0 +1,22 @@
+package super_;
+
+public class Ex {
+	public static void main(String[] args) {
+		
+		Child c = new Child();
+		System.out.println("우리집 TV : " + c.tv);
+	}
+}
+
+
+class Parent {
+	String tv = "부모님이 구입한 TV";
+	
+	public void watchTv() {
+		System.out.println("부모님 집에서 " + tv + " 보기!");
+	}
+}
+
+class Child extends Parent{
+	
+}

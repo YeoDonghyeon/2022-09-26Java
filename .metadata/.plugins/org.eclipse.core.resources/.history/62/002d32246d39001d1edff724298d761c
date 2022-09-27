@@ -1,0 +1,51 @@
+package inheritance;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+//		Account acc = new Account("111-1111-111", "홍길동", 10000);
+		
+		
+	}
+
+}
+
+class Account {
+	String accountNo = "11";
+	String ownerName = "12";
+	int balance = 11;
+
+
+	public void deposit() {
+		System.out.println("입금되었습니다.");
+	}
+	
+	public void withdraw() {
+		System.out.println("출금되었습니다.");
+	}
+	
+	public void showAccountInfo() {
+		System.out.println("계좌번호 : " + accountNo);
+		System.out.println("예금주명 : " + ownerName);
+		System.out.println("현재잔액 : " + balance);
+	}
+}
+
+class ItwillBank extends Account {
+	String insureName;
+	
+	
+	
+//	public ItwillBank(String insureName) {
+//		this.insureName = insureName;
+//	}
+
+
+	public void contract(String insureName) {
+		this.insureName = insureName;
+		System.out.println(insureName + "보험 계약 완료!");
+	}
+	
+}

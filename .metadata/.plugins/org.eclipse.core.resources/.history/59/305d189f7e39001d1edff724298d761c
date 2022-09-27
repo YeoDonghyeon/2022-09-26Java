@@ -1,0 +1,34 @@
+package inheritance;
+
+public class Ex3 {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}
+
+class Engine {
+	int cc = 3000;
+}
+
+class Car {
+	Engine engine = new Engine();
+	
+	String modelName = "그랜져";
+	
+	public void showCarInfo() {
+		System.out.println("모델명 : " + modelName);
+		
+		System.out.println("배기량 : " + engine.cc);
+		
+	}
+}
+
+class FireEngine extends Car {
+	int supplyLimit = 10000;
+	
+	public void showFireEngineInfo() {
+		System.out.println("급수량 : " + supplyLimit);
+	}
+}

@@ -1,0 +1,70 @@
+package inheritance;
+
+public class Ex{
+
+	public static void main(String[] args) {
+		/*
+		 * 상속(inheritance)
+		 */
+		
+		Child c = new Child();
+		c.childPrn();
+		c.num = 10;
+		
+		아버지 아버지 = new 아버지();
+		System.out.println("아버지의 자동차 : " + 아버지.자동차);
+		아버지.노래하기재능();
+		
+		나 나 = new 나();
+		
+	}
+	
+}
+
+class Parent {
+	int num;
+	
+	public void parentPrn() {
+		System.out.println("슈퍼클래스의 parenPrn()");
+	}
+}
+
+class Child extends Parent {
+	
+	
+	public void childPrn() {
+		System.out.println("서브클래스의 parenPrn()");
+	}
+
+	public void showNum() {
+		System.out.println("부모로부터 상속받은 멤버변수 num = " + num);
+	}
+}
+
+class 할아버지 {
+	String 집 = "초고층 아파트";
+	String 티비 = "최신형 티비";
+	
+	public void 그림그리기재능() {
+		System.out.println("그림을 잘 그린다.");
+	}
+}
+
+class 아버지 extends 할아버지 {
+	String 자동차 = "스포츠카";
+	
+	public void 노래하기재능() {
+		System.out.println("노래를 잘 한다.");
+	}
+}
+
+class 나 extends 아버지 {
+	String 폰 = "플립4";
+	
+	public void 프로그래밍재능() {
+		System.out.println("프로그래밍을 잘 한다.");
+	}
+}
+
+
+

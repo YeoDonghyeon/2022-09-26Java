@@ -1,0 +1,48 @@
+package inheritance;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
+
+class Account {
+	String accountNo;
+	String ownerName;
+	int balance;
+	
+	
+	public void deposit() {
+		
+	}
+	
+	public void withdraw() {
+		
+	}
+	
+	public void showAccountInfo() {
+		System.out.println("계좌번호 : " + accountNo);
+		System.out.println("예금주명 : " + ownerName);
+		System.out.println("현재잔액 : " + balance);
+	}
+}
+
+class ItwillBank {
+	String insureName;
+	
+	
+	
+	public ItwillBank(String insureName) {
+		this.insureName = insureName;
+	}
+
+
+
+	public void contract(String insureName) {
+		System.out.println(insureName + "보험 계약 완료!");
+	}
+	
+}

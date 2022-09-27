@@ -1,0 +1,11 @@
+package super_;
+
+public class Ex {
+	public static void main(String[] args) {
+		
+	}
+}
+
+class Parent {
+	String tv = "부모님이 구입한 TV"
+}

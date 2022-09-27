@@ -1,0 +1,29 @@
+package inheritance;
+
+public class Ex{
+
+	public static void main(String[] args) {
+		/*
+		 * 상속(inheritance)
+		 */
+		
+		
+		
+	}
+	
+}
+
+class Parent {
+	int num;
+	
+	public void parentPrn() {
+		System.out.println("슈퍼클래스의 parenPrn()");
+	}
+}
+
+
+
+
+
+
+

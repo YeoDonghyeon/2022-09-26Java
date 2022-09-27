@@ -1,0 +1,24 @@
+package method_overriding;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+}
+
+class Car {
+	int speed;
+	int maxSpeed;
+	
+	public void speedUp() {
+		System.out.println("자동차 속도 증가");
+	}
+	
+	public void speedDown() {
+		System.out.println("자동차 속도 증가");
+	}
+}
+
